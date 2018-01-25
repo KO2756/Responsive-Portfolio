@@ -1,0 +1,336 @@
+
+
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+  
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+    clear:both;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("./assets/concrete-texture.png");
+  background-color: #ffffff;
+  position: relative;
+  margin:0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+h2, h3 {
+  border-bottom: solid;
+  border-color: #cccccc;
+  color: #4aaaa5;
+}
+
+h1, h2, h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+header {
+  border-bottom: solid;
+  border-color: #cccccc;
+  border-width: thin;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+#headContain {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-color: #4aaaa5;
+  font-size: 28px;
+  color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  float: left;
+  margin: 25px 0px; 
+  padding: 0 10px;
+  border-right: solid;
+  border-right-width: thin;
+  color: #777777;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a {
+  text-decoration: none;
+  color: #777777;
+}
+
+a:visited {
+  color: #35017a;
+}
+
+.container, footer, nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  color: #777777;
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  padding-bottom: 16px;
+  clear: both;
+  margin-bottom: 30px;
+  position: relative;
+  min-height: 100%;
+}
+
+#social {
+  width: 270px;
+  float: left;
+  background-color: #ffffff;
+  border: solid;
+  border-color: #dddddd;
+  border-width: thin;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 15px 5px;
+  margin: 25px;
+  text-align: center;
+}
+
+#social img {
+  float:left;
+  display: block;
+  margin: 0 auto;
+  width: 33.3%;
+}
+
+#social p {
+  margin: 15px;
+  padding: 0 10px;
+}
+
+
+
+footer {
+  background-color: #666666;
+  color: #ffffff;
+  border-top: #4aaaa5 solid 10px;
+  padding: 25px;
+  text-align: center;
+  width: 100%;
+  clear: both;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-top: 30px;
+  height: 16px;
+}
+
+
+
+#bio, #contact, #portfolio {
+  width: 650px;
+  float: left;
+  background-color: #ffffff;
+  border: solid;
+  border-color: #dddddd;
+  border-width: thin;
+  margin-right: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  padding: 15px 5px;
+  margin: 28px;
+}
+
+#bio p, #list {
+  margin: 20px;
+}
+
+#bio img {
+  float: left;
+  margin-right: 20px;
+}
+
+form {
+  margin: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  border: solid;
+  border-color: #dddddd;
+  border-width: thin;
+}
+
+button {
+  color: #fff;
+  background-color: #4aaaa5;
+  border: none;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+
+.items {
+  float: left;
+  width: 45%;
+  margin-right: 4%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.items:nth-child(2n) {
+  margin-right: 0;
+  margin-left: 4%;
+}
+
+#list {
+  width: 604px;
+}
+
+h4 {
+  position: absolute;
+  bottom: 15px;
+  background-color: #4aaaa5;
+  color: #fff;
+  width: 280px;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*980px media query here*/
+@media screen and (max-width:980px) {
+
+  nav {
+    float: left;
+  }
+  
+.clearfix {
+  width: 100%;
+}
+
+#headcontainer {
+  width: 100%;
+}
+
+.container clearfix {
+  width: 100%;
+}
+
+#social {
+  width: 40%;
+  padding-top: 20px;
+  margin-top: 20px;
+  
+}
+
+#bio {
+  width: 100%;
+}
+
+#contact {
+  width: 100%;
+}
+
+}
+
+/*768px media query here*/
+@media screen and (max-width:768px) {
+  
+  nav {
+    float: left;
+  }
+  
+.clearfix {
+  width: 100%;
+}
+
+#headcontainer {
+  width: 100%;
+}
+
+.container clearfix {
+  width: 100%;
+}
+
+#social {
+  width: 40%;
+  padding-top: 20px;
+  margin-top: 20px;
+  
+}
+
+#bio {
+  width: 100%;
+}
+
+#contact {
+  width: 100%;
+}
+
+}
+
+/*640px media query here*/
+@media screen and (max-width:640px) {
+  
+  nav {
+    float: top;
+  }
+    
+.clearfix {
+  width: 100%;
+}
+
+#headcontainer {
+  width: 100%;
+}
+
+.container clearfix {
+  width: 100%;
+}
+
+#social {
+  width: 50%;
+  padding-top: 20px;
+  margin-top: 20px;
+  
+}
+
+#bio {
+  width: 100%;
+}
+
+#contact {
+  width: 100%;
+}
+
+}
